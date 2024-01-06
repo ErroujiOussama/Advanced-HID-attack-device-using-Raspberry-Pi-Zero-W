@@ -1,0 +1,18 @@
+
+1)P4wnP1 A.L.O.A (A Little Offensive Appliance) provides you with an image that transforms your RPi Zero W into a handy pentesting / trolling device.
+====>It serves two vital functions:
+    1) Fooling the target machine into thinking that it is an external keyboard 
+    2) Broadcasting a (hidden) WiFi hotspot / Bluetooth connection that allows you to control it when you are within                                                                                                                     range.
+
+
+Setting up P4wnP1 A.L.O.A
+
+Quick introduction to web GUI   
+                      USB SETTINGS tab. To ensure that your RPi does not get blocked by the Target Machine
+                      HIDSCRIPT tab, which is where we can configure the scripts to be run, as well as any results that are returned. Spend some time looking through the GitHub readme, as well as the default scripts that are shipped with the A.L.O.A image by default — accessible via the LOAD & REPLACE button. This allows you to quickly familiarize yourself with the standard functions that are available for you to use. Take note that while the HID scripts are to be written in JavaScript, methods such as setTimeout, setInterval, and even Promises, do not appear to be available for use.
+
+                       
+
+Mapping characters to Num, Scroll, Caps Lock
+
+  P4wnP1 terms the Num, Scroll, and Caps Lock buttons as a group of keys known as LED keys
